@@ -119,6 +119,11 @@ jobs:
           haxelib install actuate 
 
           haxelib list
+      - run: |
+
+          haxe -version
+
+          haxelib install hxnodejs
       - name: funni build logs
 
         run: haxelib run lime build android -Dci
