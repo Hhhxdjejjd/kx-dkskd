@@ -42,12 +42,19 @@
 	<!-- _______________________________ Libraries ______________________________ -->
 
 	<haxelib name="flixel" />
+        <haxedev set='webgl' />
 
 	<!--In case you want to use the addons package-->
 	<haxelib name="flixel-addons" />
+	<haxelib name="hscript" />
 
 	<!--In case you want to use the ui package-->
 	<haxelib name="flixel-ui" />
+	<haxelib name="newgrounds" unless='mobile'/>
+	<haxelib name="faxe" if='switch'/>
+	<haxelib name="polymod"/>
+	<haxelib name="discord_rpc" if="desktop"/>
+	<haxelib name="extension-webm" unless="html5" />
 
 	<!--In case you want to use nape with flixel-->
 	<!--<haxelib name="nape-haxe4" />-->
